@@ -10,7 +10,7 @@ eval $(dircolors -b ~/.dir_colors)
 PS1='\[\033[00;32m\][\u@\h\[\033[00;37m\] \W\[\033[00;32m\]]\$\[\033[00m\] '
 
 # Set default editor to vim
-export VISUAL='vim'
+export VISUAL='nvim'
 export EDITOR=$VISUAL
 
 # Custom aliases
