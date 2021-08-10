@@ -10,7 +10,7 @@ and then use an alias to run commands from the home directory against the bare
 repository.
 ```bash
 alias df='git --git-dir=$HOME/GitHub/dotfiles/ --work-tree=$HOME'
-git clone --bare https://github.com/jakescaife/dotfiles.git $HOME/GitHub/dotfiles
+git clone --bare git@github.com:jakescaife/dotfiles.git $HOME/GitHub/dotfiles
 df checkout
 ```
 The checkout will fail if dotfiles already exist in the home directory, simply
