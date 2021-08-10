@@ -18,9 +18,9 @@ alias df='git --git-dir=$HOME/GitHub/dotfiles/ --work-tree=$HOME'
 alias ls='ls --group-directories-first --color=auto'
 alias ll='ls --group-directories-first --color=auto -l'
 alias la='ls --group-directories-first --color=auto -Al'
-
-# Confirm before overwriting
 alias cp='cp -i'
 
 # Load custom functions
 source ~/.functions
+
+export PATH="$HOME/.cargo/bin:$PATH"
