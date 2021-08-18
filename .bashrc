@@ -17,7 +17,7 @@ export EDITOR=$VISUAL
 alias df='git --git-dir=$HOME/GitHub/dotfiles/ --work-tree=$HOME'
 alias ls='ls --group-directories-first --color=auto'
 alias ll='ls --group-directories-first --color=auto -l'
-alias la='ls --group-directories-first --color=auto -Al'
+alias la='ls --group-directories-first --color=auto -Alv'
 alias cp='cp -i'
 
 # Load custom functions
