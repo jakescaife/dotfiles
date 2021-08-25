@@ -3,3 +3,13 @@ window:
   padding:
     x: 5
     y: 5
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  size: 13
+  normal:
+    family: Iosevka
+    style: Regular
