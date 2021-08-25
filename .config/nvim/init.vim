@@ -7,7 +7,6 @@ set smartindent
 " Display whitespace characters
 set list
 set listchars=tab:•\ ,trail:•
-set colorcolumn=80
 
 " Enable relative line numbers
 set number
