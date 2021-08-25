@@ -8,7 +8,7 @@ super + d
 	discord
 
 # close window
-super + q
+super + c
 	bspc node -k
 
 # toggle monocle
